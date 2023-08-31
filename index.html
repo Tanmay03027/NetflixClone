@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <link rel="icon"  href="./image/netflix logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+  
+</head>
+<body>
+<!--banner section start-->
+  <div class=" w-[100vw] h-[100vh] bg-[url('image/home.jpg')] bg-center bg-cover banner">
+        <!--black overlay section start-->
+       <div class="w-[100%] h-[100vh] bg-[rgba(0,0,0,0.5)]">
+
+
+       <!--navbar section start-->
+         <nav class="grid grid-cols-2 gap-[600px] ">
+            <!--logo section start-->
+            <div class="logo ml-36 mt-4">
+                <img src="./image/logo.png" class="w-[20vw]">
+            </div>
+            <!--logo section end-->
+
+            <!--topright section start-->
+            <div class="top-right flex mt-10">
+                <div class="w-[10vw] h-[40px] rounded-md text-center border-2 border-[#fff] flex justify-center items-center cursor-pointer">
+                    <i class="ri-global-line text-white cursor-pointer"></i>
+                    <select class="bg-[#0F0F0F] text-white cursor-pointer">
+                        <option >English</option>
+                        <option >Hindi</option>
+                    </select>  
+                </div>
+                
+                   <button class="text-white bg-red-600 w-[100px] h-[35px] rounded  text-center ml-5 ">Sign In</button>
+            </div>
+            <!--topright section end-->
+            
+         </nav>
+        <!--navbar section end-->
+
+         <!--main section start-->
+             <div class="main  w-[80%] h-[80%] ml-32 mt-5 text-white p-[80px]">
+                <h1 class="font-[1000] text-[50px] mt-[50px]">Unlimited movies, TV shows and more</h1>
+                <p class="ml-[300px] text-[25px] font-[400] mt-3">Watch anywhere. Cancel anytime.</p>
+                <p class="text-[20px] ml-[150px] mt-[20px] font-[500]">Ready to watch? Enter your email to create or restart your membership.</p>
+                <div class="box flex">
+                    <input type="text" name="email" placeholder="Email address" class="w-[400px] h-[50px]  bg-[#444444] backdrop-opacity-10 backdrop-invert bg-black/70 border-2 border-[#aaaaaa]  ml-[200px] mt-[20px] text-white p-[12px] cursor-pointer">
+                     <button class="ml-[10px] bg-red-600 w-[150px] h-[50px] mt-[20px] rounded text-[20px]">Get Started</button>
+                </div>
+             </div>
+          <!--main section end-->
+
+
+    </div>
+     <!--black overlay section end-->
+  </div>
+<!--banner section end-->
+
+<!--border start-->
+<div class="break w-[100%] h-[8px] bg-[#232323]"></div>
+<!--border end-->
+
+
+<!--enjoy section start-->
+<div class="enjoy w-[100%] h-[550px] bg-black text-white flex ">
+    <!--text section start-->
+    <div class="text pl-[200px] pt-[150px]">
+         <h2 class="font-[700] text-[60px]">Enjoy on your TV</h2>
+         <p class="text-[25px] pt-[20px]">Watch on smart TVs, PlayStation, Xbox,<br> Chromecast, Apple TV, Blu-ray players and <br>more.</p>
+    </div>
+     <!--text section end-->
+     <!--image section start-->
+    <div class="img-1 pt-[60px] pl-[80px] relative">
+        <video autoplay loop type="video/mp4" src="./image/video1.m4v" class="absolute w-[360px] left-[25%] top-[25%] z-[1]"></video>
+        <img src="./image/tv1.png" class="w-[500px] relative z-[2]" >
+    </div>
+     <!--image section end-->
+</div>
+<!--enjoy section end-->
+
+<!--border start-->
+<div class="break w-[100%] h-[8px] bg-[#232323]"></div>
+<!--border end-->
+
+<!--download section start-->
+<div class="enjoy w-[100%] h-[550px] bg-black flex">
+        
+                        <!--image section start-->
+                <div class="img ml-[180px] pt-[70px] relative">
+                   
+                    <img src="./image/mobile1.jpg" class="w-[500px] z-0 ">
+                    <!--container box start-->
+                    <div class="w-[300px] h-[100px] bg-black border-2 border-[white] flex justify-center items-center gap-4 rounded-[10px] absolute left-[20%] bottom-[25%]">
+                        <img src="./image/boxshot.png" class="w-[50px]">
+                        <p class="text-white">Stranger Things
+                           <br><span class="text-[blue]">Downloading... </span> </p>
+                        <img src="./image/download-icon.gif" class="w-[50px]">
+                    </div>
+                    <!--contianer box end-->
+                </div>
+                <!--image section end-->
+                <!--text section start-->
+                    <div class="text-white">
+                        <h2 class="text-[50px] font-[900] pt-[150px]">Download your shows<br> to watch offline</h2>
+                        <p class="text-[25px] font-[400] mt-[10px]">Save your favourites easily and always have<br> something to watch.</p>
+                    </div>
+                    <!--text section end-->
+        
+      
+</div>
+
+<!--download section end-->
+
+<!--border start-->
+<div class="break w-[100%] h-[8px] bg-[#232323]"></div>
+<!--border end-->
+
+<!--watch section start-->
+<div class="enjoy w-[100%] h-[550px] bg-black flex text-white">
+     <!--text section start-->
+     <div class="text pl-[100px] pt-[150px]">
+        <h2 class="font-[700] text-[50px]">Watch everywhere</h2>
+        <p class="text-[25px] pt-[20px]">Stream unlimited movies and TV shows on your <br>phone, tablet, laptop, and TV.</p>
+   </div>
+    <!--text section end-->
+    <!--image section start-->
+   <div class="img-1 pt-[60px] pl-[80px] relative">
+    <video autoplay loop type="video/mp4" src="./image/video2.m4v" class="absolute w-[300px]  left-[30%] top-[15%] z-[1]"></video>
+       <img src="./image/tv2.png" class="w-[500px] relative z-[2]">
+   </div>
+    <!--image section end-->
+</div>
+<!--watch section end-->
+
+
+<!--border start-->
+<div class="break w-[100%] h-[8px] bg-[#232323]"></div>
+<!--border end-->
+
+
+<!--cartoon section start-->
+<div class="enjoy w-[100%] h-[550px] bg-black text-white flex ">
+    <!--image section start-->
+    <div class="img-1 pt-[50px] pl-[200px]">
+        <img src="./image/cartoon.png" class="w-[500px]">
+    </div>
+    <!--image section end-->
+    <!--text section start-->
+     <div class="text-white mt-[100px]">
+        <h2 class="text-[50px] font-[900]">Create profiles for <br>kids</h2>
+        <p class="text-[25px] font-[400] mt-[10px]">Send children on adventures with their favourite <br>characters in a space made just for them—free <br>with your membership.</p>
+     </div>
+     <!--text section end-->
+</div>
+<!--cartoon section end-->
+
+<!--border start-->
+<div class="break w-[100%] h-[8px] bg-[#232323]"></div>
+<!--border end-->
+
+
+<!--faq section start-->
+<div class="enjoy w-[100%] h-[1000px] bg-black text-white ">
+    <h1 class="text-white font-[900] text-[50px] text-center pt-[70px]">Frequently Asked Questions</h1>
+    <!--faq-->
+     <div class="faq py-[30px]">
+        <!--1 start-->
+       <div class="bg-[#414141] w-[900px] ml-[200px] mb-[15px]">
+        <div class="question border-b-[2px] border-[black] text-white text-[25px] relative p-[20px] hover:bg-[rgb(78,78,78)] duration-300 cursor-pointer "><h3>What is Netflix?</h3><span class="absolute right-[20px] bottom-[10px] text-[50px]">+</span></div>
+        <div class="answer text-[20px] scale-y-0 h-[0px] origin-top duration-300">
+            <p>
+                Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries and more – on thousands of internet-connected devices.
+            </p>
+            <p class="pt-[20px]">  
+                You can watch as much as you want, whenever you want, without a single ad – all for one low monthly price. There's always something new to discover, and new TV shows and movies are added every week!
+            </p>
+        </div>
+       </div>
+       <!--1 end-->
+        <!--2 start-->
+        <div class="bg-[#414141] w-[900px] ml-[200px] mb-[15px]">
+            <div class="question border-b-[2px] border-[black] text-white text-[25px] relative p-[20px] hover:bg-[rgb(78,78,78)] duration-300 cursor-pointer"><h3>How much does Netflix cost?</h3><span class="absolute right-[20px] bottom-[10px] text-[50px]">+</span></div>
+            <div class="answer text-[20px] scale-y-0 h-[0px] origin-top duration-300">
+                <p>
+                    Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from ₹ 149 to ₹ 649 a month. No extra costs, no contracts.
+                </p>
+           
+            </div>
+           </div>
+           <!--2 end-->
+            <!--3 start-->
+       <div class="bg-[#414141] w-[900px] ml-[200px] mb-[15px]">
+        <div class="question border-b-[2px] border-[black] text-white text-[25px] relative p-[20px] hover:bg-[rgb(78,78,78)] duration-300 cursor-pointer"><h3>Where can I watch?</h3><span class="absolute right-[20px] bottom-[10px] text-[50px]">+</span></div>
+        <div class="answer text-[20px] scale-y-0 h-[0px] origin-top duration-300">
+            <p>
+                Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at netflix.com from your personal computer or on any internet-connected device that offers the Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles.
+            </p>
+            <p class="pt-[20px]">  
+                You can also download your favourite shows with the iOS, Android, or Windows 10 app. Use downloads to watch while you're on the go and without an internet connection. Take Netflix with you anywhere.
+            </p>
+        </div>
+       </div>
+       <!--3 end-->
+        <!--4 start-->
+        <div class="bg-[#414141] w-[900px] ml-[200px] mb-[15px]">
+            <div class="question border-b-[2px] border-[black] text-white text-[25px] relative p-[20px] hover:bg-[rgb(78,78,78)] duration-300 cursor-pointer"><h3>How do I Cancel?</h3><span class="absolute right-[20px] bottom-[10px] text-[50px]">+</span></div>
+            <div class="answer text-[20px] scale-y-0 h-[0px] origin-top duration-300 ">
+                <p>
+                    Netflix is flexible. There are no annoying contracts and no commitments. You can easily cancel your account online in two clicks. There are no cancellation fees – start or stop your account anytime.
+                </p>
+               
+            </div>
+           </div>
+           <!--4 end-->
+             <!--5 start-->
+        <div class="bg-[#414141] w-[900px] ml-[200px] mb-[15px]">
+            <div class="question border-b-[2px] border-[black] text-white text-[25px] relative p-[20px] hover:bg-[rgb(78,78,78)] duration-300 cursor-pointer"><h3>What can I watch on Netflix?</h3><span class="absolute right-[20px] bottom-[10px] text-[50px]">+</span></div>
+            <div class="answer text-[20px] scale-y-0 h-[0px] origin-top duration-300 ">
+                <p>
+                    Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix originals, and more. Watch as much as you want, anytime you want.
+                </p>
+               
+            </div>
+           </div>
+           <!--5 end-->
+            <!--6 start-->
+       <div class="bg-[#414141] w-[900px] ml-[200px] mb-[15px]">
+        <div class="question border-b-[2px] border-[black] text-white text-[25px] relative p-[20px] hover:bg-[rgb(78,78,78)] duration-300 cursor-pointer"><h3>Is Netflix good for Kids?</h3><span class="absolute right-[20px] bottom-[10px] text-[50px]">+</span></div>
+        <div class="answer text-[20px] scale-y-0 h-[0px] origin-top duration-300">
+            <p>
+                The Netflix Kids experience is included in your membership to give parents control while kids enjoy family-friendly TV shows and films in their own space.
+            </p>
+            <p class="pt-[20px]">  
+                Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating of content kids can watch and block specific titles you don’t want kids to see.
+            </p>
+        </div>
+       </div>
+       <!--6 end-->
+     </div>
+    <!--faq-->
+   
+    <p class="text-center text-[20px]">Ready to watch? Enter your email to create or restart your membership.</p>
+    <div class="box flex ml-[190px]">
+        <input type="text" name="email" placeholder="Email address" class="w-[400px] h-[50px]  bg-[#444444] backdrop-opacity-10 backdrop-invert bg-black/70 border-2 border-[#aaaaaa]  ml-[200px] mt-[20px] text-white p-[12px] cursor-pointer">
+         <button class="ml-[10px] bg-red-600 w-[150px] h-[50px] mt-[20px] rounded text-[20px]">Get Started</button>
+    </div>
+</div>
+<!--faq section end-->
+
+<!--border start-->
+<div class="break w-[100%] h-[8px] bg-[#232323]"></div>
+<!--border end-->
+
+<!--footer section start-->
+<div  class="enjoy w-[100%] h-[550px] bg-black text-white ">
+ <p class="text-[#B3B3B3] pt-[80px] pl-[150px] cursor-pointer">Questions? Call 000-800-919-1694</p>
+ <div class="division flex gap-[150px] pt-[50px] pl-[150px] cursor-pointer leading-[35px] ">
+    <div class="first text-[#B3B3B3]">
+        <p class="hover:text-[18px]">FAQ</p>
+        <p class="hover:text-[18px]">Media Centre </p>
+        <p class="hover:text-[18px]">Ways to Watch </p>
+        <p class="hover:text-[18px]">Cookie Preferences</p>
+        <p class="hover:text-[18px]">Speed Test</p>
+     </div>
+     <div class="second text-[#B3B3B3]">
+        <p class="hover:text-[18px]">Help Centre </p>
+        <p class="hover:text-[18px]">Investor Relations </p>
+        <p class="hover:text-[18px]">Terms of Use</p>
+        <p class="hover:text-[18px]">Corporate Information</p>
+        <p class="hover:text-[18px]">Legal Notices</p>
+     </div>
+     <div class="third text-[#B3B3B3]">
+        <p class="hover:text-[18px]">Account</p>
+        <p class="hover:text-[18px]">Jobs </p>
+        <p class="hover:text-[18px]">Privacy</p>
+        <p class="hover:text-[18px]">Contact Us</p>
+        <p class="hover:text-[18px]">Only on Netflix</p>
+     </div>
+ </div>
+ <div class="w-[120px] h-[40px] rounded-md text-center border-2 border-[#fff] flex justify-center items-center cursor-pointer ml-[150px] mt-[50px]">
+    <i class="ri-global-line text-white cursor-pointer"></i>
+    <select class="bg-[#000000] text-white cursor-pointer">
+        <option >English</option>
+        <option >Hindi</option>
+    </select>  
+</div>
+<p class="text-[#B3B3B3] mt-[30px] ml-[150px]">Netflix India</p>
+</div>
+<!--footer section end-->
+
+
+
+<script>
+    let allQuestion=document.querySelectorAll(".question");
+
+
+    allQuestion.forEach((v,index)=>{
+         v.addEventListener("click",()=>{
+              v.nextElementSibling.classList.toggle("h-[auto]")
+              v.nextElementSibling.classList.toggle("scale-y-100")
+              v.nextElementSibling.classList.toggle("p-[20px]")
+              v.children[1].classList.toggle("rotate-45")
+
+              allQuestion.forEach((el,i)=>{
+                   if(i!=index){
+                       el.nextElementSibling.classList.remove("h-[auto]","scale-y-100","p-[20px]")
+                       el.children[1].classList.remove("rotate-45")
+                   }
+              })
+         })
+    });
+   
+</script>
+</body>
+</html>
